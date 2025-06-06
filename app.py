@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
 # Load model
-model = load_model('C:/Users/Atharva/OneDrive/Desktop/stock price prediction/Stock Predictions Model.keras')
+model = load_model('./Stock Predictions Model.keras')  
+
 
 # Streamlit header
 st.header('📈 Stock Market Predictor')
